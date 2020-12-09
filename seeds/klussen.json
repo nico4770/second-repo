@@ -1,0 +1,131 @@
+[{
+  "_id": {
+    "$oid": "5fc64d858b3c3513e4167a88"
+  },
+  "aanvrager": "5fc649258b3c3513e4167a74 ",
+  "omschrijving": "Formulieren thuishulp invullen",
+  "toelichting": "Voor het aanvragen van thuishulp moeten erg veel formulieren worden ingevuld die ik niet goed begrijp",
+  "categorie": "overig",
+  "plaatsingdt ": {
+    "$date": "2020-10-25T00:00:00Z"
+  },
+  "status": "aanvraag ",
+  "uitvoerder": ""
+},{
+  "_id": {
+    "$oid": "5fc64d858b3c3513e4167a89"
+  },
+  "aanvrager": "5fc649258b3c3513e4167a76 ",
+  "omschrijving": "Grofvuil wegbrengen naar stort",
+  "toelichting": "",
+  "categorie": "overig",
+  "plaatsingdt ": {
+    "$date": "2020-11-10T00:00:00Z"
+  },
+  "status": "aanvraag ",
+  "uitvoerder": ""
+},{
+  "_id": {
+    "$oid": "5fc64d858b3c3513e4167a8a"
+  },
+  "aanvrager": "5fc649258b3c3513e4167a74 ",
+  "omschrijving": "Hondenvoer halen ",
+  "toelichting": "Dat zijn erg zware zakken voormij, wel 20kg per stuk. Dus een auto is wel handig",
+  "categorie": "boodschap",
+  "plaatsingdt ": {
+    "$date": "2020-12-01T00:00:00Z"
+  },
+  "status": "aanvraag ",
+  "uitvoerder": ""
+},{
+  "_id": {
+    "$oid": "5fc64d858b3c3513e4167a8b"
+  },
+  "aanvrager": "5fc649258b3c3513e4167a7d ",
+  "omschrijving": "1x in de week naar supermarkt",
+  "toelichting": "",
+  "categorie": "boodschap",
+  "plaatsingdt ": {
+    "$date": "2020-11-01T00:00:00Z"
+  },
+  "status": "aanvraag ",
+  "uitvoerder": ""
+},{
+  "_id": {
+    "$oid": "5fc64d858b3c3513e4167a8c"
+  },
+  "aanvrager": "5fc649258b3c3513e4167a79 ",
+  "omschrijving": "ivm quarantene boodschappen doen",
+  "toelichting": "Ik moet 10 dagen in quarantene en kan zelf niet naar de Lidl",
+  "categorie": "boodschap",
+  "plaatsingdt ": {
+    "$date": "2020-11-25T00:00:00Z"
+  },
+  "status": "uitvoer ",
+  "uitvoerder": "5fc649258b3c3513e4167a7a "
+},{
+  "_id": {
+    "$oid": "5fc64d858b3c3513e4167a8d"
+  },
+  "aanvrager": "5fc649258b3c3513e4167a77 ",
+  "omschrijving": "Kattenluik in deur maken",
+  "toelichting": "Ik heb al een kattenluik maar geen goede zaag hiervoor",
+  "categorie": "technisch",
+  "plaatsingdt ": {
+    "$date": "2020-12-10T00:00:00Z"
+  },
+  "status": "aanvraag ",
+  "uitvoerder": ""
+},{
+  "_id": {
+    "$oid": "5fc64d858b3c3513e4167a8e"
+  },
+  "aanvrager": "5fc649258b3c3513e4167a78 ",
+  "omschrijving": "gewoon een gesprekje over dagelijkse dingen",
+  "toelichting": "",
+  "categorie": "sociaal ",
+  "plaatsingdt ": {
+    "$date": "2020-11-21T00:00:00Z"
+  },
+  "status": "aanvraag ",
+  "uitvoerder": ""
+},{
+  "_id": {
+    "$oid": "5fc64d858b3c3513e4167a8f"
+  },
+  "aanvrager": "5fc649258b3c3513e4167a79 ",
+  "omschrijving": "Zoek een fiets maatje ",
+  "toelichting": "Voor de gezondheid liefst 2x in de week 10km",
+  "categorie": "fysiek ",
+  "plaatsingdt ": {
+    "$date": "2020-12-01T00:00:00Z"
+  },
+  "status": "uitvoer ",
+  "uitvoerder": "5fc649258b3c3513e4167a7c "
+},{
+  "_id": {
+    "$oid": "5fc64d858b3c3513e4167a90"
+  },
+  "aanvrager": "5fc649258b3c3513e4167a74 ",
+  "omschrijving": "Moestuin omspitten",
+  "toelichting": "Wegens ziekte lukt mij dat dit jaar niet voordat de vorst in de grond zit",
+  "categorie": "fysiek ",
+  "plaatsingdt ": {
+    "$date": "2020-11-07T00:00:00Z"
+  },
+  "status": "afgewerkt ",
+  "uitvoerder": "5fc649258b3c3513e4167a7c "
+},{
+  "_id": {
+    "$oid": "5fc64d858b3c3513e4167a91"
+  },
+  "aanvrager": "5fc649258b3c3513e4167a7d ",
+  "omschrijving": "1 of 2 keer in de week warme maaltijd verzorgen",
+  "toelichting": "",
+  "categorie": "culinair ",
+  "plaatsingdt ": {
+    "$date": "2020-10-29T00:00:00Z"
+  },
+  "status": "afgewerkt ",
+  "uitvoerder": "5fc649258b3c3513e4167a75 "
+}]

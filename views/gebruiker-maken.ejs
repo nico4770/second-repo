@@ -1,0 +1,86 @@
+<% layout('/layouts/inschrijf-boilerplate') -%>
+
+<div class="parallax">
+
+    <div class="container">
+
+        <a href="/">
+            <button class="btn btn-primary">Ga terug</button>
+        </a>
+
+        <div class="card-body">
+
+            <h5 class="card-title">Inschrijven</h5>
+
+            <form action="/gebruikers" method="POST" class="validated-form" novalidate>
+
+                <div class="mb-3">
+                    <label class="form-label" for="gebruikersnaam">Gebruikersnaam</label>
+                    <input class="form-control" type="text" id="gebruikersnaam" name="gebruiker[gebruikersnaam]" required
+                        autofocus>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="wachtwoord">Wachtwoord</label>
+                    <input class="form-control" type="password" id="wachtwoord" name="gebruiker[wachtwoord]" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="voornaam">Voornaam</label>
+                    <input class="form-control" type="text" id="voornaam" name="gebruiker[voornaam]" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="achternaam">Achternaam</label>
+                    <input class="form-control" type="text" id="achternaam" name="gebruiker[achternaam]" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="email">Email</label>
+                    <input class="form-control" type="email" id="email" name="gebruiker[email]" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="telnr">Telefoon</label>
+                    <input class="form-control" type="text" id="telnr" name="gebruiker[telnr]" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="woonplaats">Woonplaats</label>
+                    <input class="form-control" type="text" id="woonplaats" name="gebruiker[woonplaats]" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="straat">Straatnaam</label>
+                    <input class="form-control" type="text" id="straat" name="gebruiker[straat]" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="huisnr">Huisnummer</label>
+                    <input class="form-control" type="text" id="huisnr" name="gebruiker[huisnr]" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="huisnrtoev">Toevoeging</label>
+                    <input class="form-control" type="text" id="huisnrtoev" name="gebruiker[huisnrtoev]" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="postcode">Postcode</label>
+                    <input class="form-control" type="text" id="postcode" name="gebruiker[postcode]" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="bio">Korte bio</label>
+                    <input class="form-control" type="text" id="bio" name="gebruiker[bio]" required>
+                </div>
+
+                <button class="btn btn-success btn-block">Inschrijven</button>
+               
+            </form>
+
+        </div>
+
+    </div>
+
+<!-- parallax div sluit pas in footer.ejs -->

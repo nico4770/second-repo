@@ -1,0 +1,56 @@
+<% layout('/layouts/inlog-boilerplate') -%>
+
+<!-- hieronder de body -->
+
+<h1>Klussenlijst</h1>
+
+<div class="container">
+
+    <div class="cat"><img src="/css/pic/Boodschappen.jpg" alt="Boodschappen"></div>
+    <div class="cat"><img src="/css/pic/Culinair.jpg" alt="Culinair"></div>
+    <div class="cat"><img src="/css/pic/Fysiek.jpg" alt="Fysiek"></div>
+    <div class="cat"><img src="/css/pic/Hands.jpg" alt="Hands"></div>
+    <div class="cat"><img src="/css/pic/ICT.jpg" alt="ICT"></div>
+    <div class="cat"><img src="/css/pic/Sociaal.jpg" alt="Sociaal"></div>
+
+</div>
+
+
+<div class="kluslijst-title">
+    <h2>Alle klussen die een helpend handje zoeken</h2>
+</div>
+
+
+<% for (let klus of klussen) { %>
+
+<div class="klusimg">
+
+    <div class="klus">
+
+        <ul>
+
+            <li> <%= klus.categorie %> </li>
+
+            <li>
+
+                <ul>
+                    <li>
+                        <%= klus.omschrijving %>
+                    </li>
+                    <li>
+                        <%= klus.toelichting %>
+                    </li>
+                </ul>
+
+            </li>
+
+            <!-- deze button moet klus id sturen naar klus pagina om alle details te halen -->
+            <%= klus._id %>
+            <a class="btn btn-primary" href="/klussen/<%=klus._id%>">Klus bekijken</a>
+            <% }  %>
+
+        </ul>
+
+    </div>
+
+</div>

@@ -1,0 +1,65 @@
+<% layout('/layouts/inlog-boilerplate') -%>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <h1 class="text-center">Klus wijzigen</h1>
+        <div class="col-6 offset-3">
+            <form action="/klussen/<%=klus._id%>?_method=PUT" method="POST" novalidate class="validated-form">
+
+                <div class="mb-3">
+                    <label class="form-label" for="aanvrager">Gebruikersnaam</label>
+                    <input class="form-control" type="text" id="aanvrager" name="klus[aanvrager]"
+                        value="<%=klus.aanvrager%>" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="email">Emailadres</label>
+                    <input class="form-control" type="email" id="email" name="klus[email]" value="<%=klus.email%>"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="omschrijving">Omschrijving</label>
+                    <input class="form-control" type="text" id="omschrijving" name="klus[omschrijving]"
+                        value="<%=klus.omschrijving%>" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="toelichting">Toelichting</label>
+                    <input class="form-control" type="text" id="toelichting" name="klus[toelichting]"
+                        value="<%= klus.toelichting %> " required>
+                </div>
+                <div class="mb-3">
+                    <label for="categorie">Categorie</label>
+                    <select class="form-control" id="categorie" name="klus[categorie]" value="<%=klus.categorie%>">
+                        <option value="">--Kies een categorie--</option>
+                        <option value="boodschap" <%= klus.category === 'boodschap' ? 'selected': '' %>>Boodschap
+                        </option>
+                        <option value="technisch" <%= klus.category === 'technisch' ? 'selected': '' %>>Technisch
+                        </option>
+                        <option value="sociaal" <%= klus.category === 'sociaal' ? 'selected': '' %>>Sociaal</option>
+                        <option value="fysiek" <%= klus.category === 'fysiek' ? 'selected': '' %>>Fysiek</option>
+                        <option value="culinair" <%= klus.category === 'culinair' ? 'selected': '' %>>Culinair</option>
+                        <option value="overig" <%= klus.category === 'overig' ? 'selected': '' %>>Overig</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="vervaldt">Vervaldatum</label>
+                    <input class="form-control" type="date" id="vervaldt" name="klus[vervaldt]"
+                        value="<%=klus.vervaldt%>" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="date"></label>
+                    <input class="form-control" type="hidden" value="CurrentDate" id="date" name="klus[plaatsingdt]"
+                        value="<%=klus.plaatsingdt%>" required>
+                </div>
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-info">Opslaan</button>
+        </div>
+        </form>
+        <div class="mb-3">
+            <a class="btn btn-primary" href="/klussen/<%=klus._id%>">Terug</a>
+        </div>
+        <script type="text/javascript">
+            const d = new Date();
+            document.getElementById("date").value = d.toDateString();
+        </script>

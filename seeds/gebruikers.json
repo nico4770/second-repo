@@ -1,0 +1,161 @@
+[{
+  "_id": {
+    "$oid": "5fc649258b3c3513e4167a74"
+  },
+  "gebruikersnaam": "Kaatje",
+  "wachtwoord": "Aa1234!!",
+  "voornaam": "Karin",
+  "achternaam": "Muller",
+  "email": "km@hotmail.com",
+  "telnr": "0501234567",
+  "woonplaats": "Groningen",
+  "straat": "Irislaan",
+  "huisnr": "15",
+  "huisnrtoev": "b",
+  "postcode": "9788KK",
+  "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+},{
+  "_id": {
+    "$oid": "5fc649258b3c3513e4167a75"
+  },
+  "gebruikersnaam": "MaTra",
+  "wachtwoord": "Bb1234!!",
+  "voornaam": "Maarten",
+  "achternaam": "Visser",
+  "email": "maarten@gmail.com",
+  "telnr": "0502233668",
+  "woonplaats": "Groningen",
+  "straat": "Kerkstraat",
+  "huisnr": "4",
+  "huisnrtoev": "",
+  "postcode": "9723LL",
+  "bio": "Possimus, doloribus. Fugit impedit animi cupiditate enim aut et nulla porro, magnam modi possimus commodi aliquid sit repellat sed mollitia minus ab?"
+},{
+  "_id": {
+    "$oid": "5fc649258b3c3513e4167a76"
+  },
+  "gebruikersnaam": "Oilala",
+  "wachtwoord": "Cc1234!!",
+  "voornaam": "Aila",
+  "achternaam": "Faysal",
+  "email": "aff@hotmail.com",
+  "telnr": "0623225669",
+  "woonplaats": "Groningen",
+  "straat": "Steentillstaraat",
+  "huisnr": "95",
+  "huisnrtoev": "",
+  "postcode": "9726JJ",
+  "bio": ""
+},{
+  "_id": {
+    "$oid": "5fc649258b3c3513e4167a77"
+  },
+  "gebruikersnaam": "Blijeman",
+  "wachtwoord": "Dd1234!!",
+  "voornaam": "Gerard",
+  "achternaam": "Krans",
+  "email": "g.krans@domein.nl",
+  "telnr": "0509876543",
+  "woonplaats": "Ten Boer",
+  "straat": "Schoolstraat",
+  "huisnr": "125",
+  "huisnrtoev": "",
+  "postcode": "97328JK",
+  "bio": ""
+},{
+  "_id": {
+    "$oid": "5fc649258b3c3513e4167a78"
+  },
+  "gebruikersnaam": "Lenny88",
+  "wachtwoord": "Ee1234!!",
+  "voornaam": "Linda",
+  "achternaam": "Jansen",
+  "email": "lenny88@gmail.com",
+  "telnr": "0504455662",
+  "woonplaats": "Haren",
+  "straat": "Hereweg",
+  "huisnr": "225",
+  "huisnrtoev": "",
+  "postcode": "9726AK",
+  "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+},{
+  "_id": {
+    "$oid": "5fc649258b3c3513e4167a79"
+  },
+  "gebruikersnaam": "HendrikV",
+  "wachtwoord": "Ff1234!!",
+  "voornaam": "Hendrik",
+  "achternaam": "Veege ",
+  "email": "Hveege@mail.nl",
+  "telnr": "0622556987",
+  "woonplaats": "Groningen",
+  "straat": "Oostersingel",
+  "huisnr": "45",
+  "huisnrtoev": "a",
+  "postcode": "9722KK",
+  "bio": ""
+},{
+  "_id": {
+    "$oid": "5fc649258b3c3513e4167a7a"
+  },
+  "gebruikersnaam": "grunn33",
+  "wachtwoord": "Gg1234!!",
+  "voornaam": "Tammo",
+  "achternaam": "Tachtig",
+  "email": "TT33@grunnmail.gr",
+  "telnr": "0655448963",
+  "woonplaats": "Groningen",
+  "straat": "Meeuwerderweg",
+  "huisnr": "56",
+  "huisnrtoev": "",
+  "postcode": "9728MW",
+  "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+},{
+  "_id": {
+    "$oid": "5fc649258b3c3513e4167a7b"
+  },
+  "gebruikersnaam": "MevrBlos",
+  "wachtwoord": "Hh1234!!",
+  "voornaam": "G.",
+  "achternaam": "Blos",
+  "email": "g.blos@seniorweb.nl",
+  "telnr": "0508874569",
+  "woonplaats": "Engelbert",
+  "straat": "Lindal",
+  "huisnr": "133",
+  "huisnrtoev": "",
+  "postcode": "9725LD",
+  "bio": ""
+},{
+  "_id": {
+    "$oid": "5fc649258b3c3513e4167a7c"
+  },
+  "gebruikersnaam": "Andries",
+  "wachtwoord": "Ii1234!!",
+  "voornaam": "Andries",
+  "achternaam": "Kalebas",
+  "email": "akalebas@gmail.com",
+  "telnr": "0689563456",
+  "woonplaats": "Groningen",
+  "straat": "Oliemuldersstraat",
+  "huisnr": "2",
+  "huisnrtoev": "c",
+  "postcode": "9725CK",
+  "bio": ""
+},{
+  "_id": {
+    "$oid": "5fc649258b3c3513e4167a7d"
+  },
+  "gebruikersnaam": "Ibrahim",
+  "wachtwoord": "Jj1234!!",
+  "voornaam": "Ibrahim",
+  "achternaam": "Nasser",
+  "email": "IbNasser@yahoo.com",
+  "telnr": "0652398566",
+  "woonplaats": "Groningen",
+  "straat": "Rabenhauptstraat",
+  "huisnr": "168",
+  "huisnrtoev": "",
+  "postcode": "9713HG",
+  "bio": "Lorem ipsum dolor sit amet consectetur, "
+}]

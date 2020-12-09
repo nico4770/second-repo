@@ -1,0 +1,29 @@
+<% layout('/layouts/inlog-boilerplate') -%>
+
+<h1>Account van <%gebruiker.gebruikersnaam%>></h1>
+<section>
+    <h2>Mijn gegevens</h2>
+
+
+
+</section>
+
+<section>
+    <h2>Mijn klusaanvragen</h2>
+
+    <%for(let klus of mijnKlussen){%>
+    <ul>
+
+    </ul>
+    <div class="card-body">
+        <h5 class="card-title"><%= klus.omschrijving %></h5>
+        <p class="card-text"><%= klus.toelichting %> </p>
+        <p class="card-text">De klus is geplaatst op <%= klus.plaatsingdt %> en vervalt op <%= klus.vervaldt=> </p>
+
+        <a href="/" class="btn btn-success">Wijzig klus</a>
+        <a href="/" class="btn btn-danger">Wis klus</a>
+
+    </div>
+    <%}%>
+
+</section>
